@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+header{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(girl_in_rest.jpg);
+    background-size: cover;
+}
+nav{
+    font-size: 20px;
+    font-weight: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.text-container{
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header-container-container{
+    width: 50%;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 45px;
+    line-height: 1.05;
+}
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.btn:visited, 
+.btn:link{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e67e22;
+    text-decoration: none;
+    padding: 16px 32px;
+    display: inline-block;
+    border-radius: 9px;
+}
+
+@media (max-width: 900px){
+    h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .btn:visited, 
+    .btn:link{
+        padding: 13px 30px;
+    }
+}
+@media (max-width: 800px){
+    h1{
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .btn:visited, 
+    .btn:link{
+    padding: 12px 25px;
+}
+}
+@media (max-width: 700px){
+    h1{
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .text-container{
+        text-align: center;
+    }
+    .header-container-container{
+        width: 100%;
+    }
+    .btn:visited, 
+    .btn:link{
+    padding: 10px 20px;
+}
+}
